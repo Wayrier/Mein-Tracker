@@ -147,7 +147,7 @@ function HabitForm({ form, setForm, t }) {
   );
 }
 
-export default function App() {
+function App() {
   const todayIndex = getTodayIndex();
   const [lang, setLang] = useState("de");
   const t = TRANSLATIONS[lang];
