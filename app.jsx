@@ -1,4 +1,4 @@
-import { useState } from "react";
+const { useState } = React;
 
 const TRANSLATIONS = {
   de: {
